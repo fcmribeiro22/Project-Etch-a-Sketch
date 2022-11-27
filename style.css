@@ -1,5 +1,29 @@
-.board-container{
+.container{
+    border: 1px solid black;
+    display: inline-block;
     
-   height: 20px;
+    
+    
+}
+
+
+.board-container{
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px);
+    
+    
   
+    
+}
+
+.cell{
+    justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 1px solid black;
+    
 }
